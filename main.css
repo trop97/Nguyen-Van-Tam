@@ -1,0 +1,313 @@
+@charset "utf-8";
+/* CSS Document */
+Reset CSS
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.navbar{
+	height: 70px;
+}
+.nav-link{
+	color:#FFFFFF!important;
+}
+.navbar ul{
+	color: aliceblue;
+}
+.navbar img {
+    width: 100px;
+}
+#banner1{ 
+	background-image:url("image/BACKR.jpg"),linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+	height: 100vh;
+	background-size: cover;
+	background-blend-mode: overlay;
+
+}
+.noidung{ 
+    padding-top:175px;
+	width: 40%;
+	margin-left: 300px;
+	color:antiquewhite;
+	font-family: 'Raleway', sans-serif;
+}
+.noidung h1{
+	margin-top: 40px;
+}
+	
+.noidung p{
+	margin-top: 40px;
+}		
+		
+.noidung hr{
+	margin-top: 40px;
+}	
+.button{
+	font-family: 'Open Sans', sans-serif;
+    border: 1px #FFFFFF solid;
+	background: none;
+	color: antiquewhite;
+	padding:0 15px 0 15px;
+	
+}
+	
+.icons {
+	color:#848484;
+	margin: 15px 0px;
+}
+
+.col-4 p{
+	font-family: 'Raleway', sans-serif;
+	color:#848484;
+}
+.button_tab{
+
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	padding:40px 30px;
+	background: #ff8b38;
+	border: none;
+	border-radius: 3px;
+	margin-top: 1px;
+ }
+.button2{
+	font-family: 'Raleway', sans-serif;
+	color: white;
+    padding: 7px 20px;
+	background: #ff8b38;
+	border: none;
+	border-radius: 3px;
+	margin-top: 1px;	
+}
+#banner3{
+	background-color: #E5E5E5;
+	padding-top:30px;
+	
+	
+}
+.nd3{
+	padding: 50px 0px;
+	font-family: 'Raleway', sans-serif;
+}
+.fa{
+	padding-top:9px;
+}
+.row2 i{
+	color: #ff8b38;
+    border-radius: 50%;
+	border: solid #ff8b38;
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	margin-bottom: 40px;
+}
+#banner4{
+	background: #FDFDFD;
+	padding-top:40px;
+	}
+.nd5 {
+	padding: 100px 0px;
+
+	
+}
+#banner5{
+	background-color:#E5E5E5;
+}
+#banner6{
+	padding: 30px 0px;
+	background-color:#FFFFFF;
+	font-family: 'Raleway', sans-serif;
+}
+.nd6 i{
+	color: #ff8b38;
+	border-radius: 50%;
+	border: solid #ff8b38;
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	margin-bottom: 40px;
+}
+.banner6{
+	padding: 60px 0px;
+}
+.banner7{
+	font-family: 'Raleway', sans-serif;
+	
+}
+
+
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+.price{
+  	list-style-type: none;
+  	margin: 0;
+  	padding: 100px 0;
+}
+.price .header {
+	font-family: 'Open Sans', sans-serif;
+  	background-color: #333333;
+  	color: white;
+  	font-size: 20px;
+}
+.price li.gia{
+	font-family: 'Raleway', sans-serif;
+	font-size: 60px;
+	font-weight: bold;
+}
+.price li.nghieng{
+	font-style: italic;
+	font-size: 15px;
+	
+}
+.gachcam{
+	height: 2px;
+	width:10%;
+	background:#ff8b38 !important;
+	padding: 0px !important;
+	
+}
+.gachcam p{
+	visibility: hidden;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+.price:hover{
+	padding: 70px 0;
+}
+.nencam:hover{
+	height: 30px;
+}
+.nencam:hover p{
+	visibility: visible;
+	color: white;
+}
+.price li {
+  	border-bottom: 1px solid #eee;
+  	padding: 10px;
+  	text-align: center;
+  	background-color: white;
+  	font-size: 15px;
+	color: #86878b;
+}
+#banner8{ 
+	color:#FFFFFF;
+	background-size: cover;
+	background-image: url("image/banner8.jpg"),linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+	background-blend-mode: overlay;
+	height:100%}
+.noidung8{
+	padding:70px 0px;
+	font-family: 'Raleway', sans-serif;
+}
+.noidung8 h1{
+	padding-top: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+.nd-input{
+	padding-top: 80px;
+
+}
+.nd-input textarea{
+	border: none;
+	background: none;
+	border-bottom: solid #4D4748 1px;
+	
+}
+.footer{
+	padding: 30px 0px;
+	color: white;
+}
+.noidung9 {
+	font-family: 'Open Sans', sans-serif;
+}
+.button2{}
+.banner9 {
+	padding: 10px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	@media screen and (max-width: 414px){
+
+	.noidung{
+		margin-left: 20px;
+		margin-top: 30px;
+		width: 65%;
+		padding: 0px;
+		
+	}
+	.content img{
+		width: 30px;
+	}
+	.banner h1{
+		padding: 10px 0;
+		font-size: 20px !important;
+		margin: 0;
+	}
+	.noidung p{
+		font-size: 10px;
+		padding: 10px 0;
+	}
+	p{
+		font-size: 10px;
+	}
+	.icons i{
+		margin-left: 12px!important;
+		padding: 0px !important;
+	}
+	.icons i{
+		font-size: 12px !important;
+	}
+	h4{
+		font-size: 12px !important;
+	}
+	p{
+		font-size: 8px;
+	}
+	.nd{
+		padding: 50px 0;
+	}
+	.button_tab{
+		padding: 15px;
+		display: inline-block;
+		margin-bottom: 30px;
+	}
+	h1{
+		font-size: 20px !important;
+	}
+	.price{
+		padding: 5px 0;
+	}
+	.price .header{
+		font-size: 12px;
+	}
+	.price .gia{
+		font-size: 40px;
+	}
+	.price .nghieng{
+		font-size: 10px;
+	}
+	.price li{
+		font-size: 10px;
+	}
+}
